@@ -12,8 +12,8 @@ Day 2 - ROS Basics
 
 * **Basic Commands**: :doc:`Read Basic Commands </_source/day2/ros_cheatsheet>` 
 * **Catkin Workspace**: :doc:`Learn ROS Filesystem </_source/day2/ros_catkinworkspace>`
-* **First Python Node**: ::doc:`Read How create first python ROS node </text>`
-* **Publisher and Subscriber**: ::doc:`Read how to create publisher and subcriber </text>`  
+* **First Python Node**: ::doc:`Read How create first python ROS node </_source/day2/python_node>`
+* **Publisher and Subscriber**: ::doc:`Read how to create publisher and subcriber </_source/day2/pub_sub>`  
 
 .. toctree::
    :maxdepth: 2
