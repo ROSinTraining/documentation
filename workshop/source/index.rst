@@ -24,3 +24,16 @@ Day 2 - ROS Basics
    /_source/day2/ros_catkinworkspace
    /_source/day2/python_node
    /_source/day2/pub_sub
+
+
+Day 4 - Manipulation
+--------------------
+
+* :doc:`MoveIt! Setup Assistant </_source/day4/moveit_setup>` 
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Day 4 - Manipulation
+
+   /_source/day4/moveit_setup
