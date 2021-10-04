@@ -3,18 +3,24 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ROS-I Training Workshop's documentation!
-===================================================
+Welcome to ROS-I Training Workshop!
+===================================
+
+
+Day 2 - ROS Basics
+------------------
+
+* **Basic Commands**: :doc:`Read Basic Commands </_source/day2/ros_cheatsheet>` 
+* **Catkin Workspace**: :doc:`Learn ROS Filesystem </_source/day2/ros_catkinworkspace>`
+* **First Python Node**: ::doc:`Read How create first python ROS node </text>`
+* **Publisher and Subscriber**: ::doc:`Read how to create publisher and subcriber </text>`  
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :caption: Day 2 - ROS Basics
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   /_source/day2/ros_cheatsheet
+   /_source/day2/ros_catkinworkspace
+   /_source/day2/python_node
+   /_source/day2/pub_sub
