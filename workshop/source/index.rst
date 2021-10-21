@@ -30,6 +30,7 @@ Day 4 - Manipulation
 --------------------
 
 * :doc:`MoveIt! Setup Assistant </_source/day4/moveit_setup>` 
+* :doc:`TF2 Tutorial </_source/day4/tf2_tutorial>` 
 
 .. toctree::
    :maxdepth: 2
@@ -37,3 +38,4 @@ Day 4 - Manipulation
    :caption: Day 4 - Manipulation
 
    /_source/day4/moveit_setup
+   /_source/day4/tf2_tutorial
