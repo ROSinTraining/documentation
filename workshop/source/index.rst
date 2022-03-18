@@ -26,6 +26,20 @@ Day 2 - ROS Basics
    /_source/day2/pub_sub
 
 
+Day 3 - Navigation
+------------------
+
+* :doc:`Cheatsheet: Turtlebot3 </_source/day3/cheatsheet_turtlebot3>`
+* :doc:`Workshop: Teleoperation </_source/day3/workshop_teleoperation>`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Day 3 - Navigation
+
+   /_source/day3/cheatsheet_turtlebot3
+   /_source/day3/workshop_teleoperation
+
 Day 4 - Manipulation
 --------------------
 
