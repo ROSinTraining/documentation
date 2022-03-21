@@ -79,14 +79,16 @@ terminal window and you can control the robot following the instruction.
 
     Move the robot only on the ground!
 
-.. note::
+::
 
     Control Your Turtlebot3!
     Moving around:
-      w
-    a s d
+      w 
+    a s d 
       x
-    w/x : increase/decrease linear velocity
+    w/x : increase/decrease linear velocity 
     a/d : increase/decrease angular velocity
     space key, s : force stop
     CTRL-C to quit
+         
+

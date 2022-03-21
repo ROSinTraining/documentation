@@ -84,7 +84,7 @@ Control the robot
 
 * Via Keyboard
 
-    .. code-bloack:: bash
+    .. code-block:: bash
     
         $roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 * With the RQT plugin
@@ -123,4 +123,13 @@ SLAM
         
         $ rosrun map_server map_saver -f ~/map
 
+Navigation
+-----------------------
 
+* Make sure that either the simulation or the real robot is started! See “3.”
+* Using the navigation:
+
+    .. code-block:: bash
+        
+        ## Set the TURTLEBOT3 MODEL. See “2.”
+        $roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
