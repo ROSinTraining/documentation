@@ -1,2 +1,2 @@
 # documentation
-[![Documentation Status](https://readthedocs.org/projects/documentation-tutorials/badge/?version=latest)](https://documentation-tutorials.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/ros-i-workshop-fallenbrunnen/badge/?version=latest)](https://ros-i-workshop-fallenbrunnen.readthedocs.io/en/latest/?badge=latest)
