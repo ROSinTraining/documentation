@@ -6,6 +6,18 @@
 Welcome to ROS-I Training Workshop!
 ===================================
 
+Day 1 - Introduction to Linux
+-----------------------------
+
+* :doc:`Docker </_source/day1/docker>`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Day 1 - Introduction to Linux
+
+   /_source/day1/docker
+
 
 Day 2 - ROS Basics
 ------------------
