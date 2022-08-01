@@ -92,13 +92,14 @@ Create necessary files.
 
     # setup entrypoint
     ENV ROS_DISTRO ${ROS_DISTRO}
-    COPY ./ros_entrypoint.sh /
-    RUN chmod a+rwx ros_entrypoint.sh
+    RUN mkdir -p /usr/local/bin/scripts
+    COPY *entrypoint.sh /usr/local/bin/scripts/
+    RUN  chmod +x /usr/local/bin/scripts/*.sh
 
     ENTRYPOINT ["/ros_entrypoint.sh"]
     CMD ["bash"]
 
-2. Edit ``docker-compose.yml``.
+1. Edit ``docker-compose.yml``.
 
 .. code-block:: yaml
     :linenos:
@@ -122,7 +123,7 @@ Create necessary files.
                 - /dev/*:/dev/*
             environment:
                 - DISPLAY=$DISPLAY
-            entrypoint: /usr/local/bin/scripts/workspace-entrypoint.sh
+            entrypoint: /usr/local/bin/scripts/ros-entrypoint.sh
             command: bash -c "top"
 
 3. Edit ``ros_entrypoint.sh``
