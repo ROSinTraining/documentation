@@ -55,13 +55,15 @@ Day 3 - Navigation
 Day 4 - Manipulation
 --------------------
 
-* :doc:`MoveIt! Setup Assistant </_source/day4/moveit_setup>` 
+* :doc:`Urdf Tutorial </_source/day4/urdf_tutorial>` 
 * :doc:`TF2 Tutorial </_source/day4/tf2_tutorial>` 
+* :doc:`MoveIt! Setup Assistant </_source/day4/moveit_setup>` 
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Day 4 - Manipulation
 
-   /_source/day4/moveit_setup
+   /_source/day4/urdf_tutorial
    /_source/day4/tf2_tutorial
+   /_source/day4/moveit_setup
