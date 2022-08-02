@@ -58,6 +58,7 @@ Day 4 - Manipulation
 * :doc:`Urdf Tutorial </_source/day4/urdf_tutorial>` 
 * :doc:`TF2 Tutorial </_source/day4/tf2_tutorial>` 
 * :doc:`MoveIt! Setup Assistant </_source/day4/moveit_setup>` 
+* :doc:`Robot Application </_source/day4/robot_application>`
 
 .. toctree::
    :maxdepth: 2
@@ -67,3 +68,22 @@ Day 4 - Manipulation
    /_source/day4/urdf_tutorial
    /_source/day4/tf2_tutorial
    /_source/day4/moveit_setup
+   /_source/day4/robot_application
+
+Acknowledgement
+---------------
+
+.. image:: http://rosin-project.eu/wp-content/uploads/rosin_ack_logo_wide.png
+   :width: 200px
+   :target: http://rosin-project.eu
+
+Supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components. 
+More information: `rosin-project.eu`_
+
+.. _rosin-project.eu: http://rosin-project.eu
+
+.. image:: http://rosin-project.eu/wp-content/uploads/rosin_eu_flag.jpg
+   :width: 50px
+   :align: left
+
+This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement no. 732287. 

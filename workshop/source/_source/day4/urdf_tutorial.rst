@@ -134,20 +134,19 @@ transform tree is then used to display all of the shapes in ``Rviz``.
           
           $ mkdir -p ~/moveit_ws/src 
           $ cd ~/moveit_ws /src 
-          $ git clone –-recurse-submodules https://github.com/ROSinTraining/ros_manipulation_day4.git 
-          $ cd .. $ rosdep install --from-paths --ignore-src src -y 
-          $ catkin_make $ source devel/setup.bash 
-          $ roscd myfirst_urdf/urdf 
-          $ touch workcell.urdf
-    2. Create “learning_tf” package
-       
-       .. code-block:: bash
-
-        $ catkin_create_pkg learning_tf rospy roscpp tf tf2 tf2_ros geometry_msgs turtlesim
+          $ git clone --recurse-submodules https://github.com/ROSinTraining/ros_manipulation_day4.git 
+          $ cd .. 
+          $ rosdep install --from-paths --ignore-src src -y 
+          $ catkin_make 
+          $ source devel/setup.bash
+          $ cd src 
+          $ catkin_create_pkg myfirst_urdf rospy roscpp
+          $ mkdir -p myfirst_urdf/urdf && cd myfirst_urdf/urdf 
+          $ touch workcell.xacro
 
 In this exercise, we'll mount a UR5 robot on a table using XACRO tools.
 
-* Create a skeleton of the model with an empty world link:
+* Create a skeleton of the model with an empty world link (edit ``workcell.xacro``):
   
   .. code-block:: xml
 
@@ -208,7 +207,7 @@ In this exercise, we'll mount a UR5 robot on a table using XACRO tools.
   .. code-block:: bash
 
     $ rosrun xacro xacro -- inorder -o workcell.urdf workcell.urdf.xacro
-    
+
   Now run it through the parser and check for syntax with the command shown in the
   previous section. You can also display the URDF and control the joints with the command
   shown in the previous section.

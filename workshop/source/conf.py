@@ -22,7 +22,7 @@ copyright = '2021, Vishnuprasad Prachandabhanu'
 author = 'Vishnuprasad Prachandabhanu'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.0'
+release = 'v0.1'
 
 
 # -- General configuration ---------------------------------------------------

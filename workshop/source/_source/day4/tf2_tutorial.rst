@@ -3,12 +3,16 @@ TF TUTORIAL
 
 1. Introduction
 -----------------
-This tutorial will show you the benefits and the power of the ROS TF tool. It will introduce how to make use of static and dynamic transforms and TF listener.
+This tutorial will show you the benefits and the power of the ROS TF tool. It will introduce how to make use of static and dynamic transforms and TF listener. 
 
-2. Writing a tf broadcaster
+1. Writing a tf broadcaster
 ----------------------------
 First of all create a new package in your workspace. Name it ``learning_tf`` with dependencies on **tf2**, **tf2_ros**, **tf_conversions**, **rospy** and 
 **turtlesim** and build the package. Inside of the package create a new python node called ``tf_broadcaster_example.py`` *(~/moveit_ws/src/learning_tf/scripts/)*.
+
+.. code-block:: bash
+
+    $ catkin_create_pkg learning_tf rospy roscpp tf tf2 tf2_ros geometry_msgs turtlesim
 
 Given below is an example of a ROS node including a TF Broadcaster. The code is based on the simple structure of the node. Feel free to adjust the code structure based on your programming skills. Copy the code to the ``tf_broadcaster_example.py``. 
 Make the python file executable.
