@@ -128,6 +128,14 @@ by the AR Track Alvar node.
 Your task is to simply complete the node to let the arm move above the AR tag in
 a continuous loop. Following is the list of tasks to be completed:
 
+.. hint:: 
+
+    .. code-block:: 
+
+        $ cd ~/moveit_ws/ros_manipulation_day4/moveit_tutorial/scripts
+        $ touch arm_move.py
+        $ chmod +x arm_move.py
+
 .. code-block:: python
     :linenos:
 
