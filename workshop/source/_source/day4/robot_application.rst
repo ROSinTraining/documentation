@@ -237,6 +237,6 @@ a continuous loop. Following is the list of tasks to be completed:
   
   .. code-block:: bash
 
-    $ rosrun moveit_tutorial move_to_marker.py 
+    $ rosrun moveit_tutorial arm_move.py 
 
 Now change the position of marker in the Gazebo simulation.
