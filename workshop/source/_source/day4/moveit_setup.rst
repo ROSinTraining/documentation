@@ -14,25 +14,6 @@ for use with the MoveIt pipeline. To learn more about the SRDF, you
 can go through the `URDF/SRDF Overview <../urdf_srdf/urdf_srdf_tutorial.html>`_
 page.
 
-Getting Started
-------------------------
-
-MoveIt and ROS
-
-* Follow the instructions for `installing MoveIt <https://moveit.ros.org/install/>`_
-  first if you have not already done that.
-
-* If you haven't already done so, make sure you have the `Franka description
-  package <https://github.com/frankaemika/franka_ros>`_ for Noetic: ::
-
-    sudo apt install ros-noetic-franka-description
-
-* If you have the ``panda_moveit_config`` package already git-cloned from the *Getting Started* page, be sure to delete that now since this tutorial will teach you how to create it from scratch: ::
-
-   cd ~/ws_moveit/src
-   rm -rf panda_moveit_config
-   catkin clean panda_moveit_config
-
 Step 1: Start
 ---------------
 
