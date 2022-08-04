@@ -114,7 +114,7 @@ Now, use the ``tf_echo`` tool to check if the turtle pose is already published t
 
 .. code-block:: bash
 
-    $ rosrun tf tf_echo /world/turtle1
+    $ rosrun tf tf_echo /world /turtle1
 
 This should show you the pose of the turtle1 related to the world frame. Now, drive around  the  turtle  using  the  arrow  keys.  
 Make  sure  to  have  the  terminal  in foreground that started the launch file including the keyboard teleopnode.You can use ``rqt_tf_tree`` 

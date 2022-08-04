@@ -51,7 +51,7 @@ Step 1: Start
 
 * Click on the browse button and navigate to the *ur_demo_description.urdf.xacro* file
   installed when you installed the Franka package above. (This file gets installed in
-  *~/moveit_ws/src/moveit_training/urdf/* on Ubuntu
+  *~/moveit_ws/src/moveit_tutorial/urdf/* on Ubuntu
   with ROS Noetic.)  Choose that file and then click *Load Files*. The
   Setup Assistant will load the files (this might take a few seconds)
   and present you with this screen:
