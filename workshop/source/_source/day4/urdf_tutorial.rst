@@ -133,7 +133,7 @@ transform tree is then used to display all of the shapes in ``Rviz``.
        .. code-block:: bash
           
           $ mkdir -p ~/moveit_ws/src 
-          $ cd ~/moveit_ws /src 
+          $ cd ~/moveit_ws/src 
           $ git clone --recurse-submodules https://github.com/ROSinTraining/ros_manipulation_day4.git 
           $ cd .. 
           $ rosdep install --from-paths --ignore-src src -y 
