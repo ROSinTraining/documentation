@@ -204,6 +204,11 @@ In this exercise, we'll mount a UR5 robot on a table using XACRO tools.
 
 * Convert the XACRO to URDF with the following command.
   
+  .. hint:: 
+
+    Do not forget to ``catkin_make`` whenever you create a new package inside your workspace. 
+    Also, do not forget to source your workspace in every new terminal. 
+  
   .. code-block:: bash
 
     $ rosrun xacro xacro -- inorder -o workcell.urdf workcell.urdf.xacro
